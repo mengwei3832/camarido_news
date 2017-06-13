@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_00bbff</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="ToolbarPopupTheme" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="android:colorBackground">@color/color_00bbff</item>
+        <item name="android:textColor">@color/color_ffffff</item>
+        <item name="android:dividerHeight">2dp</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+        <!--新增一个item，用于控制menu-->
+    </style>
+    <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+        <!--把该属性改为false即可使menu位置位于toolbar之下-->
+    </style>
+    <!-- 起始页主题 -->
+    <style name="Theme.AppStartLoad" parent="android:Theme" type="text/css">
+        <item name="android:windowBackground">@mipmap/start_app_page</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="HoloButton.Borderless.Back" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/goback_btn_bg_selector</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- actionBar 字体设置 -->
+    <!--<style name="TextActionBarTitle" parent="style/TextBigSize">
+        <item name="android:textColor">@color/nTextWithRed</item>
+    </style>-->
+
+    <style name="ticket_popuwindow">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="employer_popuwindow_text_ticket">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/space_40</item>
+        <item name="android:background">@color/color_00bbff</item>
+        <item name="android:layout_marginTop">@dimen/space_2</item>
+        <item name="android:layout_marginBottom">@dimen/space_2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_ffffff</item>
+        <item name="android:textSize">@dimen/space_14</item>
+    </style>
+
+    <!-- NumberProgressBar进度条相关style -->
+    <style name="NumberProgressBar_Default">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="max">100</item>
+        <item name="progress">0</item>
+        <item name="progress_unreached_color">#CCCCCC</item>
+        <item name="progress_reached_color">#3498DB</item>
+        <item name="progress_text_size">10sp</item>
+        <item name="progress_text_color">#3498DB</item>
+        <item name="progress_reached_bar_height">1.5dp</item>
+        <item name="progress_unreached_bar_height">0.75dp</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="venue_detail_service">
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@drawable/main_item_text_selector</item>
+    </style>
+
+    <style name="venue_detail_service" parent="style/TextSmall">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="TextSmallSize">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextSmall" parent="style/TextSmallSize">
+        <item name="android:textColor">@color/textNomalColor</item>
+    </style>
+</resources>

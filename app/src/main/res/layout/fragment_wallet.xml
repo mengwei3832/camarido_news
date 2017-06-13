@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include
+        android:id="@+id/title_wallet"
+        layout="@layout/toolbar_title"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_wallet">
+        <com.tencent.smtt.sdk.WebView
+            android:id="@+id/wv_wallet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.tencent.smtt.sdk.WebView>
+    </RelativeLayout>
+    <include
+        android:id="@+id/progress_wallet"
+        layout="@layout/progress_wheel"/>
+</RelativeLayout>

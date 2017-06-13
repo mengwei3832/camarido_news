@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout style="@style/ticket_popuwindow"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentRight="true"
+                  android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/tv_web_trans"
+            android:visibility="gone"
+            style="@style/employer_popuwindow_text_ticket"
+            android:text="@string/tv_web_trans" />
+
+        <TextView
+            android:id="@+id/tv_web_run"
+            android:visibility="gone"
+            style="@style/employer_popuwindow_text_ticket"
+            android:text="@string/tv_web_run" />
+
+        <TextView
+            android:id="@+id/tv_web_wallet"
+            android:visibility="gone"
+            style="@style/employer_popuwindow_text_ticket"
+            android:text="@string/tv_web_wallet" />
+        <TextView
+            android:id="@+id/tv_web_vehicle"
+            android:visibility="gone"
+            style="@style/employer_popuwindow_text_ticket"
+            android:text="@string/tv_web_vehicle" />
+
+        <TextView
+            android:id="@+id/tv_web_help"
+            style="@style/employer_popuwindow_text_ticket"
+            android:text="@string/tv_web_help" />
+        <TextView
+            android:id="@+id/tv_web_offline"
+            android:visibility="gone"
+            style="@style/employer_popuwindow_text_ticket"
+            android:text="@string/tv_web_offline" />
+        <TextView
+            android:id="@+id/tv_web_back"
+            style="@style/employer_popuwindow_text_ticket"
+            android:text="@string/tv_web_back" />
+    </LinearLayout>
+
+</RelativeLayout>

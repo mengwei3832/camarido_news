@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tv_web_trans"
+        android:title="@string/tv_web_trans"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tv_web_run"
+        android:title="@string/tv_web_run"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tv_web_wallet"
+        android:title="@string/tv_web_wallet"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tv_web_help"
+        android:title="@string/tv_web_help"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/tv_web_back"
+        android:title="@string/tv_web_back"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_f1f1f1"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_40"
+        android:background="@color/color_00bbff">
+        <TextView
+            android:id="@+id/tv_login_surroundings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/space_15"
+            android:text=""
+            android:textColor="@color/color_ffffff"
+            android:textSize="@dimen/space_15"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/activity_login_title"
+            android:textColor="@color/color_ffffff"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_login_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/space_15"
+            android:text="@string/activity_login_register"
+            android:textColor="@color/color_ffffff"
+            android:textSize="@dimen/space_15"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_150">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/company_person_header"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/space_15"
+        android:paddingRight="@dimen/space_15">
+
+        <EditText
+            android:id="@+id/et_login_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_40"
+            android:background="@mipmap/login_biankuang"
+            android:hint="@string/activity_login_name"
+            android:textColorHint="@color/color_f1f1f1"
+            android:inputType="number"
+            android:lines="1"
+            android:maxLength="11"
+            android:paddingLeft="@dimen/space_15"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_40"
+            android:layout_marginTop="@dimen/space_10"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/et_login_pass"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="match_parent"
+                android:background="@mipmap/login_biankuang"
+                android:hint="@string/activity_login_pass"
+                android:textColorHint="@color/color_f1f1f1"
+                android:inputType="number"
+                android:lines="1"
+                android:maxLength="4"
+                android:paddingLeft="@dimen/space_15"/>
+            <Button
+                android:id="@+id/bt_login_code"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/space_10"
+                android:background="@color/color_00bbff"
+                android:text="@string/activity_login_code"
+                android:textColor="@color/color_ffffff"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/space_15">
+
+        <CheckBox
+            android:id="@+id/cb_login_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/activity_login_auto"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space_15">
+
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_40"
+            android:background="@color/color_00bbff"
+            android:text="@string/activity_login_title"
+            android:textColor="@color/color_ffffff"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+</LinearLayout>

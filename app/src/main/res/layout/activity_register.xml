@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:wheel="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_40"
+        android:background="@color/color_00bbff">
+
+        <ImageView
+            android:id="@+id/iv_register_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/space_15"
+            android:src="@mipmap/return_back"/>
+
+        <TextView
+            android:id="@+id/tv_register_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/activity_login_register"
+            android:textColor="@color/color_ffffff"
+            android:textSize="@dimen/space_15"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_register_wv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_top">
+
+        <com.tencent.smtt.sdk.WebView
+            android:id="@+id/wv_register"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.tencent.smtt.sdk.WebView>
+
+    </RelativeLayout>
+
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:id="@+id/progress_register"
+        android:layout_width="@dimen/space_80"
+        android:layout_height="@dimen/space_80"
+        android:layout_centerInParent="true"
+        wheel:matProg_barColor="@color/color_00bbff"
+        wheel:matProg_progressIndeterminate="true"
+        android:visibility="gone"/>
+    <include
+        android:id="@+id/ll_register_error"
+        layout="@layout/activity_error"
+        android:visibility="gone"></include>
+
+</RelativeLayout>

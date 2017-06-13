@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">卡煤利多经纪人</string>
+
+    <!-- 页面错误信息判断 -->
+    <string name="activity_error">您要访问的页面暂时没有找到!</string>
+
+    <!-- 自动更新 -->
+    <string name="down_msg">更新提示</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="update">立即更新</string>
+
+    <!-- 登录页面 -->
+    <string name="activity_login_title">登录</string>
+    <string name="activity_login_name">用户名</string>
+    <string name="activity_login_pass">验证码</string>
+    <string name="activity_login_register">注册</string>
+    <string name="activity_login_auto">自动登录</string>
+    <string name="activity_login_code">获取验证码</string>
+
+    <!-- 注册页面 -->
+
+    <!-- 主页面 -->
+    <string name="tv_web_trans">交易广场</string>
+    <string name="tv_web_run">常跑路线</string>
+    <string name="tv_web_wallet">企业钱包</string>
+    <string name="tv_web_vehicle">车辆管理</string>
+    <string name="tv_web_help">系统帮助</string>
+    <string name="tv_web_offline">离线派车</string>
+    <string name="tv_web_back">退出登录</string>
+
+    <string name="request_failure">连接超时，请检查网络</string>
+
+    <!-- 离线派车页面 -->
+    <string name="activity_offline_sendcar_title">离线派车</string>
+    <string name="activity_offline_sendcar_carname">请输入车牌号码</string>
+    <string name="activity_offline_sendcar_phone">请输入跟车电话</string>
+    <string name="activity_offline_sendcar_button">派车</string>
+    <string name="activity_offline_sendcar_kuangdun">矿发(吨)：</string>
+    <string name="activity_offline_sendcar_qiandun">签收(吨)：</string>
+    <string name="activity_offline_sendcar_shangchuan1">上传数据</string>
+    <string name="activity_offline_sendcar_dialog_chongfu1">该车辆已派过</string>
+    <string name="activity_offline_sendcar_dialog_chongfu2">可能重复，是否继续?</string>
+
+    <!-- 上传数据页面 -->
+    <string name="activity_upload_data_title">上传数据</string>
+    <string name="activity_upload_data_vehicle">车牌号码：</string>
+    <string name="activity_upload_data_ticketcode">运单号码：</string>
+    <string name="activity_upload_data_cancel">取消本次执行</string>
+    <string name="activity_upload_data_back">返回</string>
+    <string name="activity_upload_data_cancel_dialog1">运单被取消后，将不在列表中显示</string>
+    <string name="activity_upload_data_cancel_dialog2">是否确定取消该运单?</string>
+
+    <!-- 上传矿发数据 -->
+    <string name="activity_upload_kuang_title">上传矿发数据</string>
+    <string name="activity_upload_qian_title">上传签收数据</string>
+    <string name="activity_upload_kuang_vehicle">车牌号码</string>
+    <string name="activity_upload_kuang_dun">矿发吨数</string>
+    <string name="activity_upload_kuang_dun_input">请填写矿发吨数</string>
+    <string name="activity_upload_kuang_date">矿发时间</string>
+    <string name="activity_upload_kuang_date_input">请在下方输入框中填写矿发时间（例：2017-03-09 07:06）</string>
+    <string name="activity_upload_qian_dun">签收吨数</string>
+    <string name="activity_upload_qian_dun_input">请填写签收吨数</string>
+    <string name="activity_upload_qian_date">签收时间</string>
+    <string name="activity_upload_qian_date_input">请在下方输入框中填写签收时间（例：2017-03-09 07:06）</string>
+    <string name="activity_upload_kuang_button">上传</string>
+    <string name="activity_upload_kuang_danju">单据照片</string>
+    <string name="activity_upload_kuang_year">年</string>
+    <string name="activity_upload_kuang_month">月</string>
+    <string name="activity_upload_kuang_day">日</string>
+
+    <!-- 离线数据展示页面 -->
+    <string name="activity_display_next_button">下一步</string>
+    <string name="activity_display_xuanze">选择</string>
+    <string name="activity_display_dialog_t1">列表内带有</string>
+    <string name="activity_display_dialog_t2">图标的运单已过期</string>
+    <string name="activity_display_dialog_t3">（运单数据被补齐或者被删除）</string>
+    <string name="activity_display_dialog_t4">运单会在您下次进入该列表时被清空</string>
+
+    <!-- 报价单选择列表 -->
+    <string name="activity_quote_title">选择报价单</string>
+    <string name="activity_quote_item_begin">起点：</string>
+    <string name="activity_quote_item_end">终点：</string>
+
+    <string name="dialog_textview_t1">当前没有网络</string>
+    <string name="dialog_textview_t2">是否进入离线派车界面？</string>
+
+    <!-- 请稍候提示弹窗 -->
+    <string name="dialog_wait_tishi">请稍候...</string>
+</resources>

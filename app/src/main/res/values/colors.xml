@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="back_bg_color_selector">#20000000</color>
+    <color name="textNomalColor">#a5a5a5</color>
+    <color name="transparent">#00000000</color>
+    <color name="nTextWithRed">#fff5f5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="color_22bb22">#22bb22</color>
+    <color name="color_00bbff">#00bbff</color>
+    <color name="color_585858">#585858</color>
+    <color name="color_c1e6f4">#c1e6f4</color>
+    <color name="color_f1f1f1">#f1f1f1</color>
+    <color name="color_bebebe">#bebebe</color>
+    <color name="color_303030">#303030</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_909090">#909090</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_808080">#808080</color>
+    <color name="color_c3c0c0">#c3c0c0</color>
+    <color name="color_229AEE">#229AEE</color>
+    <color name="color_ccf1ff">#ccf1ff</color>
+    <color name="color_cfcfcf">#cfcfcf</color>
+    <color name="color_eeeeee">#eeeeee</color>
+</resources>
